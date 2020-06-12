@@ -1,0 +1,110 @@
+body {
+    overflow: auto;
+    background-color: #333333;
+    font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+#name {
+    font-size: 10rem;
+    font-weight: bold;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+
+    position: fixed;
+
+    -webkit-animation:  4s linear 0s infinite alternate move_x,
+    2.5s linear 0s infinite alternate move_y;
+    animation:  4s linear 0s infinite alternate move_x,
+    2.5s linear 0s infinite alternate move_y;
+}
+
+#name li {
+    display: inline-block;
+    position: relative;
+}
+
+#name li:nth-child(1){
+    -webkit-animation: 2s ease 0s infinite alternate wobble_letter,
+    2s ease 0s infinite change_colour;
+    animation: 2s ease 0s infinite alternate wobble_letter,
+    2s ease 0s infinite change_colour;
+}
+#name li:nth-child(2){
+    -webkit-animation: 2s ease -0.2s infinite alternate wobble_letter,
+    2s ease -0.2s infinite change_colour;
+    animation: 2s ease -0.2s infinite alternate wobble_letter,
+    2s ease -0.2s infinite change_colour;
+}
+#name li:nth-child(3){
+    -webkit-animation: 2s ease -0.4s infinite alternate wobble_letter,
+    2s ease -0.4s infinite change_colour;
+    animation: 2s ease -0.4s infinite alternate wobble_letter,
+    2s ease -0.4s infinite change_colour;
+}
+#name li:nth-child(4){
+    -webkit-animation: 2s ease -0.6s infinite alternate wobble_letter,
+    2s ease -0.6s infinite change_colour;
+    animation: 2s ease -0.6s infinite alternate wobble_letter,
+    2s ease -0.6s infinite change_colour;
+}
+#name li:nth-child(5){
+    -webkit-animation: 2s ease -0.8s infinite alternate wobble_letter,
+    2s ease -0.8s infinite change_colour;
+    animation: 2s ease -0.8s infinite alternate wobble_letter,
+    2s ease -0.8s infinite change_colour;
+}
+#name li:nth-child(6){
+    -webkit-animation: 2s ease -1s infinite alternate wobble_letter,
+    2s ease -1s infinite change_colour;
+    animation: 2s ease -1s infinite alternate wobble_letter,
+    2s ease -1s infinite change_colour;
+}
+#name li:nth-child(7){
+    -webkit-animation: 2s ease -1.2s infinite alternate wobble_letter,
+    2s ease -1.2s infinite change_colour;
+    animation: 2s ease -1.2s infinite alternate wobble_letter,
+    2s ease -1.2s infinite change_colour;
+}
+#name li:nth-child(8){
+    -webkit-animation: 2s ease -1.4s infinite alternate wobble_letter,
+    2s ease -1.4s infinite change_colour;
+    animation: 2s ease -1.4s infinite alternate wobble_letter,
+    2s ease -1.4s infinite change_colour;
+}
+#name li:nth-child(9){
+    -webkit-animation: 2s ease -1.6s infinite alternate wobble_letter,
+    2s ease -1.6s infinite change_colour;
+    animation: 2s ease -1.6s infinite alternate wobble_letter,
+    2s ease -1.6s infinite change_colour;
+}
+
+@-webkit-keyframes move_x {
+    from { left: 0; } to { left: calc(100vw - 52rem); }
+}
+@keyframes move_x {
+    from { left: 0; } to { left: calc(100vw - 52rem); }
+}
+
+@-webkit-keyframes move_y {
+    from { top: 3rem; } to { top: calc(100vh - 15rem); }
+}
+@keyframes move_y {
+    from { top: 3rem; } to { top: calc(100vh - 15rem); }
+}
+
+@-webkit-keyframes wobble_letter {
+    from { top: -5rem; } to { top: 5rem; }
+}
+@keyframes wobble_letter {
+    from { top: -5rem; } to { top: 5rem; }
+}
+
+@-webkit-keyframes change_colour {
+    0% { color:lawngreen; } 25% {color: deepskyblue; } 50% { color: deeppink; } 75% { color: orange; } 100% { color:lawngreen; }
+}
+@keyframes change_colour {
+    0% { color:lawngreen; } 25% {color: deepskyblue; } 50% { color: deeppink; } 75% { color: orange; } 100% { color:lawngreen; }
+}
