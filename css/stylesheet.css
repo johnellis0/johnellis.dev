@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
+html {
+    font-size: 26px;
+}
+
 body {
     font-family: 'Share Tech Mono', monospace;
 
@@ -35,22 +39,18 @@ a > .iconify {
 }
 
 @media (min-width: 576px) {
-    main {
-        max-width: 576px;
-    }
+    html { font-size: 24px; }
+    main { max-width: 576px; }
 }
 @media (min-width: 768px) {
-    main {
-        max-width: 768px;
-    }
+    html { font-size: 22px; }
+    main { max-width: 768px; }
 }
 @media (min-width: 992px) {
-    main {
-        max-width: 992px;
-    }
+    html { font-size: 20px; }
+    main { max-width: 992px; }
 }
 @media (min-width: 1200px) {
-    main {
-        max-width: 1200px;
-    }
+    html { font-size: 18px; }
+    main { max-width: 1200px; }
 }
