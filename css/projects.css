@@ -1,17 +1,35 @@
 article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     border: 3px solid black;
     padding: 0.5rem;
 }
 
-article > h1 {
+article > div {
+    margin: 0 0.5rem 0 0;
+}
+
+article aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px 0 0 0;
+}
+
+article aside a {
+    margin: 0.1rem 0;
+}
+
+article h3 {
     margin: 0;
 }
-article > .company {
+article .company {
     font-size: 0.75rem;
     color: #303030;
     margin: 0;
 }
 
-article > p {
+article p {
     margin: 16px 0 0 0;
 }
