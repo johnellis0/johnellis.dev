@@ -1,0 +1,17 @@
+article {
+    border: 3px solid black;
+    padding: 0.5rem;
+}
+
+article > h1 {
+    margin: 0;
+}
+article > .company {
+    font-size: 0.75rem;
+    color: #303030;
+    margin: 0;
+}
+
+article > p {
+    margin: 16px 0 0 0;
+}

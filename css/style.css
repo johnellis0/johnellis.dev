@@ -30,6 +30,7 @@ header > .links > a {
 header > .links > a:hover {
     color: #4f4f4f;
     font-weight: bold;
+    text-decoration: underline;
 }
 header > .links > a:active {
     color: #000000;
@@ -37,10 +38,16 @@ header > .links > a:active {
 }
 
 header > hr {
-    border: 1px solid black;
+    height: 3px;
+    border: none;
+    background-color: black;
     width: 100%;
 }
 
 section > h1 {
+    font-size: 2rem;
     text-decoration: underline;
 }
+
+
+
