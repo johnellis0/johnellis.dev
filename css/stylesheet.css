@@ -19,13 +19,13 @@ section > h2 {
 
 a.link {
     font-size: 1rem;
-    color: #808080;
+    color: #5d5d5d;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
 }
 a.link:hover {
-    color: #4f4f4f;
+    color: #4c4c4c;
     font-weight: bold;
     text-decoration: underline;
 }
