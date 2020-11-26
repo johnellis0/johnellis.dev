@@ -4,7 +4,9 @@ layout: default
 <article>
     <div>
         <h3>{{ page.project_title }}</h3>
-        <p class="company">{{ page.client }}</p>
+        {% if page.client != nil %}
+            <p class="company">{{ page.client }}</p>
+        {% endif %}
         <p>{{ page.summary }}</p>
         <div>
             {{ content | markdownify }}
