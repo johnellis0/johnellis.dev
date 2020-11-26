@@ -17,16 +17,21 @@ section > h2 {
     text-decoration: underline;
 }
 
+h3 > a.link {
+    color: #000000;
+}
+
 a.link {
-    font-size: 1rem;
+    /*font-size: 1rem;*/
     color: #808080;
+    color: #000000;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
 }
 a.link:hover {
     color: #4f4f4f;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-decoration: underline;
 }
 a.link:active {
