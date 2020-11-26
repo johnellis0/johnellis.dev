@@ -5,25 +5,31 @@ title: Home | John Ellis
 <section>
     <h2>Work Projects</h2>
 
+    {% for project in site.work %}
     <article>
         <div>
-            <h3>Customer Services Maintenance Requests System</h3>
-            <p class="company">Accommodation and Commercial Services, The University of Sheffield</p>
-            <p>Implemented a Google Scripts project to enhance the existing maintenance tracking system.</p>
-
+            <h3>
+                <a class="link" href="{{ project.url }}">
+                    {{ project.project_title }}
+                </a>
+            </h3>
+            <p class="company">{{ project.client }}</p>
+            <p>{{ project.summary }}</p>
         </div>
-        <aside>
+        <!--<aside>
             <a href="#" class="link">Case Study</a>
 
             <a href="https://github.com/johnellis0/gs-sheets-form-utils" class="link" target="_blank" rel="noopener noreferrer" >
                 <span class="iconify" data-icon="logos-github-icon" data-inline="false"></span>
                 gs-sheets-form-utils
             </a>
-        </aside>
+        </aside>-->
     </article>
+    {% endfor %}
 
 </section>
 
 <section>
     <h2>Personal Projects</h2>
+
 </section>
