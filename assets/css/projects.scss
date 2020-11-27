@@ -1,0 +1,29 @@
+---
+---
+
+.project-summary {
+    border: 3px solid black;
+    padding: 0.5rem;
+}
+
+.project-summary, .project-full{
+    width: 100%;
+
+    & h3 {
+        margin: 0;
+    }
+
+    & h2 {
+        margin: 1em 0 0 0;
+    }
+
+    & .client {
+        font-size: 0.75rem;
+        color: #303030;
+        margin: 0;
+    }
+
+    & p {
+        margin: 16px 0 0 0;
+    }
+}
