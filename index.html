@@ -3,15 +3,17 @@ layout: default
 title: Home | John Ellis
 ---
 <section>
-    <h2>Work Projects</h2>
+    <h2>Work</h2>
 
     {% for project in site.work %}
         {% include project_summary.html project=project %}
     {% endfor %}
-
 </section>
 
 <section>
-    <h2>Personal Projects</h2>
+    <h2>Projects</h2>
 
+    {% for project in site.personal %}
+        {% include project_summary.html project=project %}
+    {% endfor %}
 </section>
