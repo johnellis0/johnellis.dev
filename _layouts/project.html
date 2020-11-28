@@ -8,10 +8,14 @@ layout: default
             <p class="client">{{ page.client }}</p>
         {% endif %}
 
-        <!-- <p>{{ page.summary }}</p> -->
+        {% if page.repo_url != nil %}
+        <a href={{ page.repo_url }} class="link repo" target="_blank" rel="noopener noreferrer">
+            <span class="iconify" data-icon="logos-github-icon" data-inline="false"></span>
+            {{ page.repo_name }}
+        </a>
+        {% endif %}
 
         <div>
             {{ content | markdownify }}
         </div>
-
 </article>
