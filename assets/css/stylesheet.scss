@@ -28,7 +28,6 @@ a.link {
 
     &:hover {
         color: #4f4f4f;
-        /*font-weight: bold;*/
         text-decoration: underline;
     }
 
@@ -40,6 +39,10 @@ a.link {
     & > .iconify {
         margin-right: 0.25rem;
     }
+}
+
+.iconify.ext-link {
+    font-size: 0.75em;
 }
 
 @media (min-width: 576px) {
