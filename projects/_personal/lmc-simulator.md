@@ -1,5 +1,6 @@
 ---
 layout: project
+title: LMC Simulator
 
 project_title: Little Man Computer Simulator
 project_url: https://lmc.johnellis.dev

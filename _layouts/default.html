@@ -3,7 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
+    <title>
+        {% if page.title != nil %}
+            {{ page.title }} |
+        {% endif %}
+        John Ellis
+    </title>
 
     <meta name="author" content="John Ellis">
     <meta name="description" content="JohnEllis.dev Personal Portfolio Site">
