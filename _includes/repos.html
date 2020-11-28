@@ -1,0 +1,8 @@
+{% if include.repos != nil %}
+    {% for repo in include.repos %}
+        <a href={{ repo.url }} class="link repo" target="_blank" rel="noopener noreferrer">
+            <span class="iconify" data-icon="logos-github-icon" data-inline="false"></span>
+            {{ repo.name }}
+        </a>
+    {% endfor %}
+{% endif %}
