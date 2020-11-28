@@ -6,7 +6,7 @@
     </h3>
     <p class="client">{{ include.project.client }}</p>
 
-    {% include repos.html repos=include.project.repos %}
-
     <p>{{ include.project.summary }}</p>
+
+    {% include repos.html repos=include.project.repos %}
 </article>
