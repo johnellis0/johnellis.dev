@@ -8,6 +8,7 @@ layout: default
             <p class="client">{{ page.client }}</p>
         {% endif %}
 
+        {% include project_link.html project=page %}
         {% include repos.html repos=page.repos %}
 
         <div>
