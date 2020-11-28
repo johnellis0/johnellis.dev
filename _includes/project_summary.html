@@ -8,7 +8,8 @@
 
     <p>{{ include.project.summary }}</p>
 
-
-    {% include project_link.html project=include.project %}
-    {% include repos.html repos=include.project.repos %}
+    <div class="project-links">
+        {% include project_link.html project=include.project %}
+        {% include repos.html repos=include.project.repos %}
+    </div>
 </article>
