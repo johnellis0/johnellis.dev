@@ -29,3 +29,14 @@
         margin: 8px 0 0 0;
     }
 }
+
+table {
+    & thead, tbody {
+        & th + th {
+            padding-left: 0.5em;
+        }
+        & td + td {
+            padding-left: 0.5em;
+        }
+    }
+}
