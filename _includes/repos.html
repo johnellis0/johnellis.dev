@@ -1,6 +1,6 @@
 {% if include.repos != nil %}
     {% for repo in include.repos %}
-        <a href={{ repo.url }} class="link repo" target="_blank" rel="noopener noreferrer">
+        <a href={{ repo.url }} class="link repo" target="_blank" rel="noopener noreferrer" title="View code on GitHub">
             <span class="iconify" data-icon="logos-github-icon" data-inline="false"></span>
             {{ repo.name }}
             <span class="iconify ext-link" data-icon="heroicons-solid:external-link" data-inline="false"></span>
