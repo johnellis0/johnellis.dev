@@ -37,10 +37,11 @@
 
     & .project-links {
         display: flex;
+        flex-wrap: wrap;
         align-items: end;
         margin: 8px 0 0 0;
-        & a + a {
-            margin-left: 0.5em;
+        & a {
+            margin-right: 0.75em;
         }
     }
 }
