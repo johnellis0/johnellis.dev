@@ -1,5 +1,6 @@
 ---
 layout: project
+published: true
 
 project_title: Customer Services Maintenance Requests System
 client: Accommodation and Commercial Services, The University of Sheffield
