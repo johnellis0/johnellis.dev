@@ -29,6 +29,10 @@ header {
     margin: 0 0 0.5rem 0;
   }
 
+  & .links {
+    & span, a {
+      margin: 0 0.5em;
+    }
   }
 }
 
