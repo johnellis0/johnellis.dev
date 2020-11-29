@@ -1,7 +1,7 @@
 ---
 layout: project
 title: LMC Simulator
-published: true
+published: false
 
 project_title: Little Man Computer Simulator
 project_url: https://lmc.johnellis.dev
