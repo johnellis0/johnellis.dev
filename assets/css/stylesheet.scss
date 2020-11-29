@@ -1,3 +1,6 @@
+---
+---
+
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 html {
@@ -10,6 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin: 0 0.5em 0.5em 0.5em;
 }
 
 section > h2 {
@@ -17,25 +22,35 @@ section > h2 {
     text-decoration: underline;
 }
 
+h1, h2, h3, h4, h5 {
+    & > a.link {
+        color: black;
+    }
+}
+
 a.link {
-    font-size: 1rem;
-    color: #5d5d5d;
+    color: cadetblue;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-}
-a.link:hover {
-    color: #4c4c4c;
-    font-weight: bold;
-    text-decoration: underline;
-}
-a.link:active {
-    color: #000000;
-    font-weight: bold;
+
+    &:hover {
+        color: #4f4f4f;
+        text-decoration: underline;
+    }
+
+    &:active {
+        color: #000000;
+        font-weight: bold;
+    }
+
+    & > .iconify {
+        margin-right: 0.25rem;
+    }
 }
 
-a > .iconify {
-    margin-right: 0.25rem;
+.iconify.ext-link {
+    font-size: 0.75em;
 }
 
 @media (min-width: 576px) {

@@ -1,0 +1,18 @@
+<article class="project-summary">
+    <h3>
+        <a class="link" href="{{ include.project.url }}">
+            {{ include.project.project_title }}
+        </a>
+    </h3>
+    <p class="client">{{ include.project.client }}</p>
+
+    <p>{{ include.project.summary }}</p>
+
+    <div class="project-links">
+        <a class="link" href="{{ include.project.url }}">
+            Read more...
+        </a>
+        {% include project_link.html project=include.project %}
+        {% include repos.html repos=include.project.repos %}
+    </div>
+</article>

@@ -1,35 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
+{% if site.work.size > 0 %}
+    <section>
+        <h2>Work</h2>
 
-<head>
-    <meta charset="UTF-8">
-    <title>John Ellis</title>
+        {% for project in site.work %}
+            {% include project_summary.html project=project %}
+        {% endfor %}
+    </section>
+{% endif %}
 
-    <meta name="author" content="John Ellis">
-    <meta name="description" content="JohnEllis.dev Personal Portfolio Site">
-    <meta name="keywords" content="John Ellis, John Ellis Portfolio, John, Portfolio">
+{% if site.personal.size > 0 %}
+    <section>
+        <h2>Projects</h2>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#FFFFFF"/>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
-
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/header.css">
-
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" defer></script>
-</head>
-
-<body>
-<header>
-    <h1><a href="index.html">JOHN ELLIS</a></h1>
-    <p>Software Engineering, The University of Sheffield</p>
-    <div class="links">
-        <a href="https://github.com/johnellis0" class="link" target="_blank" rel="noopener noreferrer">
-            <span class="iconify" data-icon="logos-github-icon" data-inline="false"></span>GitHub</a>
-    </div>
-    <hr>
-</header>
-</body>
-
-</html>
+        {% for project in site.personal %}
+            {% include project_summary.html project=project %}
+        {% endfor %}
+    </section>
+{% endif %}

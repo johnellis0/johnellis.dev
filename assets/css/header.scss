@@ -1,0 +1,43 @@
+---
+---
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 1em;
+
+  & > h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    text-align: center;
+
+    & > a {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  & > p {
+    text-align: center;
+    font-size: 1rem;
+    color: #303030;
+    margin: 0 0 0.5rem 0;
+  }
+
+  & > hr {
+    height: 3px;
+    border: none;
+    background-color: black;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  header > h1 { margin: 0.5rem 0 0 0; }
+}
+@media (min-width: 768px) {
+  header > h1 { margin: 1rem 0 0 0; }
+}

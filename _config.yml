@@ -1,0 +1,10 @@
+collections:
+  work:
+    output: true
+    order:
+      - maintenance-hub.md
+  personal:
+    output: true
+    order:
+
+collections_dir: projects

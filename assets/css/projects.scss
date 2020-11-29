@@ -1,0 +1,58 @@
+---
+---
+
+.project-summary {
+    border: 3px solid black;
+    padding: 0.5rem;
+
+    &:hover {
+        box-shadow: 0 3px 5px #4f4f4f;
+    }
+}
+
+.project-full {
+    & .project-contents {
+        margin: 16px 0 0 0;
+    }
+}
+
+.project-summary, .project-full{
+    & h3 {
+        margin: 0;
+    }
+
+    & h2 {
+        margin: 1em 0 0 0;
+    }
+
+    & .client {
+        font-size: 0.75rem;
+        color: #303030;
+        margin: 0;
+    }
+
+    & p {
+        margin: 16px 0 0 0;
+    }
+
+    & .project-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+        margin: 8px 0 0 0;
+        & a {
+            margin-right: 0.75em;
+        }
+    }
+}
+
+table {
+    & thead, tbody {
+        & th + th {
+            padding-left: 0.5em;
+        }
+        & td + td {
+            padding-left: 0.5em;
+        }
+    }
+}

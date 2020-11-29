@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="project-full">
+    <h2>{{ page.project_title }}</h2>
+
+    {% if page.client != nil %}
+        <p class="client">{{ page.client }}</p>
+    {% endif %}
+
+    <div class="project-links">
+        {% include project_link.html project=page %}
+        {% include repos.html repos=page.repos %}
+    </div>
+
+    <div class="project-contents">
+        {{ content | markdownify }}
+    </div>
+</article>
