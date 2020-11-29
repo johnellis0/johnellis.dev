@@ -1,0 +1,19 @@
+---
+---
+
+footer {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  margin: 0.5em 0;
+
+  position: fixed;
+  bottom: 0;
+
+  & span, a {
+    margin: 0 0.5em;
+  }
+}
