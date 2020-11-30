@@ -24,6 +24,7 @@ main {
     margin-bottom: auto;
     box-sizing: border-box;
     padding: 0 1em 1em 1em;
+    max-width: 100%;
 }
 
 section > h2 {
@@ -80,6 +81,7 @@ code, pre {
 
 pre {
     padding: 0.25em;
+    white-space: pre-wrap;
 
     & code {
         border: none;
