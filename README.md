@@ -7,4 +7,4 @@ My personal site, built with [Jekyll](https://github.com/jekyll/jekyll)
  - John Ellis - [GitHub](https://github.com/johnellis0) / [Portfolio](https://johnellis.dev)
 
 ## License
-Released under [MIT](/LICENSE.md)
+Released under [MIT](/LICENSE)
