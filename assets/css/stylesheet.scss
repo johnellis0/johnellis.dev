@@ -63,6 +63,22 @@ hr {
     font-size: 0.75em;
 }
 
+code, pre {
+    background-color: #e2e2e2;
+    color: #454545;
+    border: 1px solid #4f4f4f;
+    border-radius: 3px;
+    line-height: 1.5;
+}
+
+pre {
+    padding: 0.25em;
+
+    & code {
+        border: none;
+    }
+}
+
 @media (min-width: 576px) {
     html { font-size: 24px; }
     main { max-width: 576px; }
