@@ -5,16 +5,25 @@
 
 html {
     font-size: 26px;
+    height: 100%;
 }
 
 body {
     font-family: 'Share Tech Mono', monospace;
 
+    min-height: 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    margin: 0 0.5em 0.5em 0.5em;
+    margin: 0;
+}
+
+main {
+    margin-bottom: auto;
+    box-sizing: border-box;
+    padding: 0 1em 1em 1em;
 }
 
 section > h2 {
@@ -23,12 +32,13 @@ section > h2 {
 }
 
 h1, h2, h3, h4, h5 {
+    word-break: break-word;
     & > a.link {
         color: black;
     }
 }
 
-a.link {
+a {
     color: #5f9ea0;
     text-decoration: none;
     display: inline-flex;
@@ -49,8 +59,31 @@ a.link {
     }
 }
 
+hr {
+    height: 3px;
+    border: none;
+    background-color: black;
+    width: 100%;
+}
+
 .iconify.ext-link {
     font-size: 0.75em;
+}
+
+code, pre {
+    background-color: #e2e2e2;
+    color: #454545;
+    border: 1px solid #4f4f4f;
+    border-radius: 3px;
+    line-height: 1.5;
+}
+
+pre {
+    padding: 0.25em;
+
+    & code {
+        border: none;
+    }
 }
 
 @media (min-width: 576px) {
