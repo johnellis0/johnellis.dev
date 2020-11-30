@@ -1,13 +1,46 @@
 <meta name="author" content="John Ellis">
-<meta name="description" content="John Ellis. Studying Software Engineering at The University of Sheffield. View my portfolio.">
+<meta name="description" content="View John Ellis' portfolio, a Software Engineering student at the University of Sheffield.">
 <meta name="keywords" content="John Ellis, Portfolio, Software Engineer, Software Engineering, University of Sheffield, Work, Projects">
+
+<meta property="og:title" content="John Ellis - Software Engineering - The University of Sheffield">
+<meta name="og:description" content="View John Ellis' portfolio, a Software Engineering student at the University of Sheffield.">
+<meta property="og:type" content="profile">
+<meta property="profile:first_name" content="John">
+<meta property="profile:last_name" content="Ellis">
+<meta property="og:url" content="https://johnellis.dev">
 
 <script type="application/ld+json">
     {
         "@context": "http://schema.org/",
-        "@type": "Person",
-        "name": "John Ellis",
-        "affiliation": "The University of Sheffield",
-        "jobTitle": "Software Engineering Student"
+        "@graph": [
+            {
+                "@type": "Person",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Sheffield, UK"
+                },
+                "jobTitle": [
+                    "Software Engineering Student"
+                ],
+                "name": "John Ellis",
+                "sameAs": "https://johnellis.dev",
+                "url": "https://johnellis.dev",
+                "worksFor": [
+                    {
+                        "@type": "Organization",
+                        "name": "The University of Sheffield",
+                        "url": "https://sheffield.ac.uk"
+                    }
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "url": "https://johnellis.dev",
+                "reviewedBy": {
+                    "@type": "Person",
+                    "name": "John Ellis"
+                }
+            }
+        ]
     }
 </script>
