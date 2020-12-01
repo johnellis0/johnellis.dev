@@ -1,6 +1,6 @@
 ---
 layout: project
-published: false
+published: true
 
 project_title: ACS Customer Services Maintenance Requests System
 client: Accommodation and Commercial Services, The University of Sheffield
@@ -13,4 +13,5 @@ repos:
     url: https://github.com/johnellis0/gs-sheets-form-utils
 ---
 
-More detailed description...
+
+
