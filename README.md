@@ -3,6 +3,11 @@
 
 My personal site, built with [Jekyll](https://github.com/jekyll/jekyll)
 
+## Projects Listed
+ * [gs-sheets-form-utils](https://github.com/johnellis0/gs-sheets-form-utils)
+ * [gs-sheets-menu](https://github.com/johnellis0/gs-sheets-menu)
+ * [lmc-simulator](https://github.com/johnellis0/lmc-simulator)
+
 ## Authors
  - John Ellis - [GitHub](https://github.com/johnellis0) / [Portfolio](https://johnellis.dev)
 
