@@ -5,22 +5,26 @@
     border: 3px solid black;
     padding: 0.5rem;
 
+    & h2,h3 {
+        margin: 0;
+    }
+
     &:hover {
         box-shadow: 0 3px 5px #4f4f4f;
     }
 }
 
 .project-full {
+    & h2,h3 {
+        margin: 1em 0 0 0;
+    }
+
     & .project-contents {
         margin: 16px 0 0 0;
     }
 }
 
 .project-summary, .project-full{
-    & h2,h3 {
-        margin: 1em 0 0 0;
-    }
-
     & .client {
         font-size: 0.85rem;
         color: #303030;
