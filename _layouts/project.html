@@ -13,6 +13,11 @@ layout: default
         {% include repos.html repos=page.repos %}
     </div>
 
+    {% if page.summary_in_full == true %}
+        <h2>Summary</h2>
+        <p>{{ page.summary }}</p>
+    {% endif %}
+
     <div class="project-contents">
         {{ content | markdownify }}
     </div>

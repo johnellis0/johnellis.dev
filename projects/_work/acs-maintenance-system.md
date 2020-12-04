@@ -4,8 +4,10 @@ published: true
 title: ACS Maintenance System
 
 project_title: ACS Customer Services Maintenance Requests System
-client: Accommodation and Commercial Services, The University of Sheffield
-summary: Developed two open source Google Apps Scripts for Google Sheets for use in Customer Services Maintenance Requests System.
+client: Accommodation and Commercial Services (ACS), The University of Sheffield
+summary: Developed two open source Google Apps Scripts for Google Sheets for use in the University of Sheffield's Accommodation Customer Services Maintenance Requests System.
+
+summary_in_full: true
 
 repos:
   - name: gs-sheets-menu
