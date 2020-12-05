@@ -5,5 +5,7 @@ collections:
   personal:
     output: true
     order:
+      - acs-maintenance-system.md
+      - lmc-simulator.md
 
 collections_dir: projects
