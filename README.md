@@ -8,8 +8,10 @@ My personal site, built with [Jekyll](https://github.com/jekyll/jekyll)
  * [gs-sheets-menu](https://github.com/johnellis0/gs-sheets-menu)
  * [lmc-simulator](https://github.com/johnellis0/lmc-simulator)
 
-## Authors
+## About
+
+### Authors
  - John Ellis - [GitHub](https://github.com/johnellis0) / [Portfolio](https://johnellis.dev)
 
-## License
+### License
 Released under [MIT](/LICENSE)
