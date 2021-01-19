@@ -5,37 +5,57 @@
 
 html {
     font-size: 26px;
-    height: 100%;
 }
 
 body {
     font-family: 'Share Tech Mono', monospace;
 
-    min-height: 100%;
-
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
 
+html, body {
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 main {
-    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     box-sizing: border-box;
-    padding: 0 1em 1em 1em;
-    max-width: 100%;
+    padding: 0 1em;
+
+    & > p {
+        text-align: center;
+        font-size: 1rem;
+        color: #303030;
+        margin: 0 0 0.5rem 0;
+    }
+
+    & .links {
+        & span, a {
+            margin: 0 0.5em;
+        }
+    }
 }
 
-section > h2 {
-    font-size: 2rem;
-    text-decoration: underline;
+header > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
-    word-break: break-word;
-    & > a.link {
-        color: black;
+@media (min-width: 576px) {
+    header > h1 {
+        font-size: 5rem;
+        margin: 0.5rem 0 0 0;
     }
 }
 
@@ -60,47 +80,6 @@ a {
     }
 }
 
-hr {
-    height: 3px;
-    border: none;
-    background-color: black;
-    width: 100%;
-}
-
 .iconify.ext-link {
     font-size: 0.75em;
-}
-
-code, pre {
-    background-color: #e2e2e2;
-    color: #454545;
-    border: 1px solid #4f4f4f;
-    border-radius: 3px;
-    line-height: 1.5;
-}
-
-pre {
-    padding: 0.25em;
-    white-space: pre-wrap;
-
-    & code {
-        border: none;
-    }
-}
-
-@media (min-width: 576px) {
-    html { font-size: 24px; }
-    main { max-width: 576px; }
-}
-@media (min-width: 768px) {
-    html { font-size: 22px; }
-    main { max-width: 768px; }
-}
-@media (min-width: 992px) {
-    html { font-size: 20px; }
-    main { max-width: 992px; }
-}
-@media (min-width: 1200px) {
-    html { font-size: 18px; }
-    main { max-width: 1200px; }
 }
